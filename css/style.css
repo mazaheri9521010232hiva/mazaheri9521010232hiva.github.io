@@ -1,0 +1,124 @@
+body{
+  background-image: url('./../img/44.jpg');
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap:40px;
+    height: 100vh;
+    border-radius: 45px;
+  
+  }
+  .grid-item {
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 45px;
+    margin-left: 20px;
+  }
+  .grid-item-head {
+  
+  grid-column-start: 2;
+    grid-column-end: 5;
+  height:fit-content;
+  border-radius: 45px;
+  font-family: cursive;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .grid-item-menu {
+  
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: rgb(255, 255, 255);
+        padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+    min-width: 250px;
+    width: fit-content;
+    max-width:400px;
+
+    min-height: 500px;
+    height: fit-content;
+    max-height: 700px;
+    
+    border-radius: 45px;
+  
+}
+ .grid-item-menu > h6{
+  font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+
+}
+   .grid-item-maintxt>h3{
+    font-family: ;
+   }
+  .grid-item-maintxt >p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .grid-item-menu > h6>a{
+    
+    text-decoration: none;
+    color : #091e64;
+  }
+  
+  .grid-item-maintxt {
+  
+      grid-row-start: 2;
+    grid-row-end: 4;
+    background: rgb(255, 255, 255);
+    
+    grid-column-start: 2;
+    grid-column-end: 5;
+    min-width: 250px;
+    width: 800px;
+    max-width:2000px;
+
+    min-height: 500px;
+    height: fit-content;
+    max-height: 700px;
+    
+    border-radius: 45px;
+  
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item-footer {
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: rgb(255, 255, 255);
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 45px;
+  
+    height: fit-content;
+  }
+  h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2  {
+   
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
